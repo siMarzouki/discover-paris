@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Eiffel Tower",
+        "description": "What would Paris be without its symbolic Eiffel Tower? Built by\u00a0Gustave Eiffel\u00a0to commemorate the centenary of the French Revolution, it is presented at the Exposition Universelle in Paris in 1889.\u00a0324 meters high, it is one of the most visited monuments in the world with nearly 7 million visitors a year.The first floor houses the Eiffel tower 58 which extends over two levels, 58 meters above the ground as its name suggests. On the second floor, the view is the best at 115 meters because you have a diving view on the ground below. Finally on the 3rd floor at 275 meters, you can see what the office of Gustave Eiffel was. For the more adventurous one, it is possible to use the stairs and climb the steps (1,665 to the summit).",
+        "latitude": "48.8588443",
+        "longitude": "2.2943506",
+        "img": "et"
+    },
+    {
+        "name": "Notre Dame Cathedral",
+        "description": "One of the most enduring symbols of Paris:\u00a0Notre-Dame de Paris, also known as Notre Dame, a Roman Catholic cathedral is located on the eastern half of the\u00a0Ile de la Cit\u00e9. It is widely considered one of the finest examples of French Gothic architecture in France and Europe. Begun in 1163 and completed in 1345, this cathedral is a sight with its portals surrounded by his many sculptures and gargoyles that adorn the roof.",
+        "latitude": "48.8530414",
+        "longitude": "2.3496742",
+        "img": "ndc"
+    },
+    {
+        "name": "Louvre Museum",
+        "description": "The Louvre is the\u00a0most visited art museum in the world. Located in the heart of Paris, this historic building is a former royal palace, with an area of 210,000 square meters including 60,600 for the exhibitions. The museum is housed in the Louvre, originally a fortress built in the late 12th century under Philip II. The remains of the fortress are visible in the basement of the museum.",
+        "latitude": "48.8606111",
+        "longitude": "2.3376431",
+        "img": "lm"
+    },
+    {
+        "name": "Arc of Triumph",
+        "description": "Under the spell of ancient Roman architecture, Napoleon commissioned Jean Chalgrin the design of a triumphal arch dedicated to the glory of imperial armies. Built in the 19th century, it is the largest monument of its kind in the world. Impressive sculptures adorn its pillars. In addition, the names of 558 generals and the great victories are engraved on the top of the arc. Under the\u00a0Arc de Triomphe\u00a0is the Tomb of the Unknown Soldier of France.",
+        "latitude": "48.8737923",
+        "longitude": "2.2950284",
+        "img": "aot"
+    },
+    {
+        "name": "Cruise on the Seine",
+        "description": "Find the best way to visit the \"City of Light\" enjoying a\u00a0cruise on the Seine, especially at night. When the sun sets, the monuments are lit slowly. You get a panoramic view to the forefront so you can enjoy the beauty of Paris: Eiffel Tower, Notre Dame, Pont Alexandre III and many more.",
+        "latitude": "48.855053",
+        "longitude": "2.344938",
+        "img": "cos"
+    },
+    {
+        "name": "Montmartre",
+        "description": "Montmartre\u00a0is a hill located in the north of Paris, 130 meters high, having its name to the surrounding neighborhood.\u00a0It is best known for the white-domed Basilica of the Sacred Heart, at the top. It was completed in 1919 and honors the French victims of the Franco-Prussian war of 1870.",
+        "latitude": "48.8875984",
+        "longitude": "2.3435736",
+        "img": "mm"
+    },
+    {
+        "name": "Palace of Versailles",
+        "description": "The Ch\u00e2teau de Versailles is the most famous castle in France. Built in the 17th century as a symbol of military power of France and as a demonstration of French supremacy in Europe, Versailles was the seat of political power in the Kingdom of France from 1682 to 1789. This huge complex of buildings, gardens and terraces is definitely a must for any visitor who will be captivated by exceptional accommodations, lavish decorations, furniture and gilded works of Renaissance art.",
+        "latitude": "48.8048649",
+        "longitude": "2.1203556",
+        "img": "pov"
+    },
+    {
+        "name": "The Latin Quarter - Luxembourg park",
+        "description": "The\u00a0Latin Quarter of Paris\u00a0is located on the left bank of the Seine, around the Sorbonne. Known for its student life, lively atmosphere and bistros, the Latin Quarter is the home to many higher education institutions, such as the Ecole Normale Superieure, the Ecole des Mines de Paris or the Ecole Polytechnique. The area takes its name from the Latin language, which was once widespread in and around the University since Latin was the international language of learning in the Middle Ages.",
+        "latitude": "48.8462227",
+        "longitude": "2.337079",
+        "img": "lp"
+    },
+    {
+        "name": "Moulin Rouge",
+        "description": "The Moulin Rouge is a cabaret known as the spiritual birthplace of the famous\u00a0French Cancan. Located at the foot of Montmartre hill in the heart of Pigalle, it was built in 1889 by Joseph Oller and Charles Zidler. Initially introduced as a courtship dance, the cancan made possible the birth of the cabaret, now present in many countries around the world. Today, the Moulin Rouge is a tourist attraction, providing entertainment for visitors from around the world.",
+        "latitude": "48.8846729",
+        "longitude": "2.332452",
+        "img": "mr"
+    },
+    {
+        "name": "Disneyland Paris",
+        "description": "Fans of Mickey can visit Disneyland Paris which is located 32 km from central Paris, with a connection to the suburban RER A.Disneyland Paris has two theme parks: Disneyland (with Sleeping Beauty's castle) and Walt Disney Studios. Top attractions are Space Mountain, It's a Small World and Big Thunder Mountain.",
+        "latitude": "48.8688447",
+        "longitude": "2.788217",
+        "img": "dp"
+    },
+    {
+        "name": "Mus\u00e9e d\u2019Orsay",
+        "description": "The Mus\u00e9e d\u2019Orsay (Orsay Museum) is one of the largest museums in Europe and features mainly French art dating from 1848 to 1914. It is home to the world\u2019s greatest collection of impressionist and post-impressionist classics, including works of Monet, Renoir, C\u00e9zanne and Van Gogh. The originality of the building comes from its story. It was initially the station of Orsay, then Val\u00e9ry Giscard d\u2019Estaing (French President, 1974-1981) decided to redesign it in a museum.",
+        "latitude": "48.8599613",
+        "longitude": "2.3265617",
+        "img": "mo"
+    }
+]
