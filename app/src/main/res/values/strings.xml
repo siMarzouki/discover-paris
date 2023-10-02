@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Discover Prais</string>
+    <string name="title_home">Places</string>
+    <string name="title_dashboard">Movies</string>
+    <string name="title_notifications">Wheel</string>
+</resources>
