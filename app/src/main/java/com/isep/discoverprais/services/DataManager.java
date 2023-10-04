@@ -1,10 +1,6 @@
 package com.isep.discoverprais.services;
 
 import android.content.Context;
-import android.content.res.Resources;
-
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.isep.discoverprais.R;
 import com.isep.discoverprais.models.Place;
 
@@ -12,7 +8,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
