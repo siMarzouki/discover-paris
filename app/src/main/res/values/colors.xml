@@ -7,4 +7,39 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+
+
+
+    <color name="c1">#e27b1e</color>
+    <color name="c2">#df691f</color>
+    <color name="c3">#ebc00f</color>
+    <color name="c4">#d1cd0b</color>
+    <color name="c5">#5ea32f</color>
+    <color name="c6">#06866b</color>
+    <color name="c7">#098892</color>
+    <color name="c8">#137fa8</color>
+    <color name="c9">#484489</color>
+    <color name="c10">#772c81</color>
+    <color name="c11">#991978</color>
+    <color name="c12">#d93420</color>
+
+    <string-array name="rainbow_dash">
+        <item>@color/c4</item>
+        <item>@color/c5</item>
+        <item>@color/c6</item>
+        <item>@color/c7</item>
+        <item>@color/c8</item>
+        <item>@color/c9</item>
+        <item>@color/c10</item>
+        <item>@color/c11</item>
+        <item>@color/c12</item>
+        <item>@color/c1</item>
+        <item>@color/c2</item>
+        <item>@color/c3</item>
+
+
+
+    </string-array>
 </resources>

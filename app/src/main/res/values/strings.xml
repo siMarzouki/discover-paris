@@ -3,4 +3,9 @@
     <string name="title_home">Places</string>
     <string name="title_dashboard">Movies</string>
     <string name="title_notifications">Wheel</string>
+    <string-array name="dummy">
+        <item>Pasta</item>
+        <item>Pizza</item>
+        <item>Chocolate</item>
+    </string-array>
 </resources>

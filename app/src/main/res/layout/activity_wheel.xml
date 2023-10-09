@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".wheel.WheelActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="37dp"
+        android:layout_weight="1"
+        android:src="@drawable/bilt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:weightSum="1"
+        tools:context="com.adefruandta.spinningwheelandroid.MainActivity"
+        tools:layout_editor_absoluteY="2dp">
+
+        <com.isep.discoverprais.wheel.SpinningWheelView
+            android:id="@+id/wheel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="60px"
+            android:layout_weight="1"
+            app:wheel_arrow_color="@android:color/white"
+            app:wheel_arrow_height="35dp"
+            app:wheel_arrow_width="20dp"
+            app:wheel_colors="@array/rainbow_dash"
+            app:wheel_items="@array/dummy"
+            app:wheel_stroke_color="@android:color/white"
+            app:wheel_stroke_width="0dp" />
+
+        <Button
+            android:id="@+id/rotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="#D2042D"
+            android:fontFamily="@font/audiowide"
+            android:text="SPIN"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

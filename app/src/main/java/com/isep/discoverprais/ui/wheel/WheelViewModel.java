@@ -11,7 +11,11 @@ public class WheelViewModel extends ViewModel {
     public WheelViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("Wheel !!");
+
     }
+
+
+
 
     public LiveData<String> getText() {
         return mText;
