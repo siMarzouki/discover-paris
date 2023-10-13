@@ -1,6 +1,7 @@
 package com.isep.discoverprais.ui.places;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,12 +33,19 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         // Lookup views within the layout
         ImageView placeImageView = convertView.findViewById(com.isep.discoverprais.R.id.placeImageView);
         TextView placeTitleTextView = convertView.findViewById(R.id.placeTitleTextView);
-
         int imageResource = getContext().getResources().getIdentifier(
                 place.getImg(), "raw", getContext().getPackageName());
         placeImageView.setImageResource(imageResource); // Set image resource
         placeTitleTextView.setText(place.getName()); // Set place name as title
 
+        // Go to place screen after choosing one
+        convertView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(), ChosenPlaceActivity.class);
+                intent.putExtra("position", position);
+                getContext().startActivity(intent);
+            }
+        });
         return convertView;
     }
 }
