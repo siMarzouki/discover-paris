@@ -10,7 +10,7 @@ public class MoviesViewModel extends ViewModel {
 
     public MoviesViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Movies");
+        mText.setValue("Movies fragment1");
     }
 
     public LiveData<String> getText() {
