@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Taken",
+        "description": "It is on the Champs-Élysées that Liam Neeson has a clandestine appointment with a former CIA contact in the captivating thriller Taken (2008). The Champs-Élysées Gardens, which border the avenue, are also the place where Audrey Hepburn and Cary Grant meet during a puppet show in Charade (1963). Puppeteers still perform at the Guignol theater in the park, thus perpetuating a tradition born in 1818.",
+        "img": "poster1",
+        "video": "video1"
+    },
+    {
+        "id": 2,
+        "title": "Amélie",
+        "description": "The Café des Deux Moulins is a timeless bistro established in the charming cobbled streets of Montmartre. This is where the main character of the film Le Fabuleux Destin d'Amélie Poulain (2001) works, which tells the touching story of a young dreamy woman living in Montmartre. The place, which has hardly changed since the shooting, illustrates what makes the renowned charm of classic Parisian bistros.You can taste Amélie's crème brûlée, presented in the film as the heroine's favorite dessert. The name of it was also attributed to a hamburger garnished with foie gras and onions, appearing on a menu also offering classics such as beef bourguignon and duck confit.",
+        "img": "poster2",
+        "video": "video2"
+    },
+    {
+        "id": 3,
+        "title": "Before Sunset",
+        "description": "Before Sunset is the second installment in Richard Linklater's dreamy trilogy following the relationship between Jesse (Ethan Hawke) and Céline (Julie Deply), following 1995's Before Sunrise. After meeting on a train and sharing a night together in Vienna in the first film, the couple's lives intersect once again, nine years later in Paris. The dialogue is clever and poignant as you follow the pair on a walk around the city, meandering through the Marais district of the 4th arrondissement, Le Pure Café in the 11th arrondissement, and the Promenade Plantée park in the 12th arrondissement. Paris is the perfect backdrop to the film's reflection on fate and how one decision begets another (or eliminates one altogether).",
+        "img": "poster3",
+        "video": "video3"
+    },
+    {
+        "id": 4,
+        "title": "The Da Vinci Code",
+        "description": "To prepare my husband for his first-ever visit to Paris, we decided to rewatch The Da Vinci Code. I love a good mystery movie, and if there's a better way to get a lay of the land of the Louvre, I don't know about it. The museum trivia scattered throughout the movie made our visit even more interesting, especially when we finally had the chance to see the famous Da Vinci paintings in person. —Stephanie Wu, articles director",
+        "img": "poster4",
+        "video": "video4"
+    },
+    {
+        "id": 5,
+        "title": "The Devil Wears Prada",
+        "description": "TFor most of The Devil Wears Prada, this comedy-drama is as New York as it gets. You have the young assistant, played by Anne Hathaway, working at the glossy magazine under an infamous editor-in-chief, in what some (me) consider the performance of a lifetime by Meryl Streep. But the entire film builds up to a series of scenes set that take place during Fashion Week in Paris, where major drama and revelations unfold—and frankly, the effect wouldn't be the same in any other city. —M.S.",
+        "img": "poster5",
+        "video": "video5"
+    },
+    {
+        "id": 6,
+        "title": "Hugo",
+        "description": "Hugo isn’t a movie about traipsing through Paris—instead, we see bits and pieces of the city through the titular character’s eyes. Hugo, a 12-year-old orphan, lives in the clocktower at Gare Montparnasse railway station and seldom leaves. Instead, he peers out at the city’s most famous landscapes from up above as he tinkers with his late father’s automaton and continues to run the clocks after his uncle goes missing. (He does occasionally venture out, including one adventure to the Hogwarts-like Sainte-Geneviève Library.) Set in the 1930s, the Martin Scorsese-directed movie is visually stunning, with elaborate sets and all the interesting sounds you'd expect of a train station, which helped it to win five Academy Awards, including Best Picture, Best Cinematography, and Best Visual Effects. It’s also full of heart, small dogs, and a goofy Sacha Baron Cohen who’s constantly out to get Hugo. —Madison Flager, commerce editor",
+        "img": "poster6",
+        "video": "video6"
+    }
+]

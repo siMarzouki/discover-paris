@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for the title text using "sans-serif" -->
+    <style name="TitleTextStyle">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textStyle">bold</item>
+
+        <!-- You can adjust other style attributes here -->
+    </style>
+
+    <!-- Style for the description text using "serif" -->
+    <style name="DescriptionTextStyle">
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">120sp</item>
+        <!-- You can adjust other style attributes here -->
+    </style>
+    <style name="VideoSourceTextStyle">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <!-- You can adjust other style attributes here -->
+    </style>
+
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".ui.movies.MovieDetailActivity">
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_arrow_back"
+        android:layout_marginLeft="6dp" />
+
+    <TextView
+        android:id="@+id/movieDetailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/backButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="1in"
+        android:text="Movie Title"
+        style="@style/TitleTextStyle"
+        android:ellipsize="none"
+        android:maxLines="1"/>
+
+
+    <TextView
+        android:id="@+id/movieDetailDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@+id/movieDetailTitle"
+        android:layout_centerHorizontal="true"
+        android:text="Movie Description"
+        android:padding="8dp"
+        style="@style/DescriptionTextStyle"
+        android:background="@drawable/description_border"
+        android:paddingTop="8dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1in"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/movieDetailDescription" />
+
+    <VideoView
+        android:id="@+id/movieVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movieDetailDescription"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+
+    <TextView
+        android:id="@+id/videoSourceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movieVideoView"
+        android:layout_centerHorizontal="true"
+        android:text="Video source from Youtube!"
+        style="@style/VideoSourceTextStyle" />
+
+    <ImageView
+        android:id="@+id/replayButton"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:src="@drawable/replay"
+        android:layout_alignEnd="@id/movieVideoView"
+        android:layout_below="@id/movieVideoView"
+        android:layout_marginTop="8dp" />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/videoSourceText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/visitedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0.1in"
+            android:layout_marginLeft="45dp"
+            android:text="Visited"
+            android:backgroundTint="@color/button_normal" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="0.1in"
+            android:text="Reset"
+            android:backgroundTint="@color/button_normal" />
+
+        <Button
+            android:id="@+id/guideMeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guide Me" />
+    </LinearLayout>
+
+
+</RelativeLayout>

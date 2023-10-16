@@ -26,6 +26,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.isep.discoverprais.ui.movies.MovieDetailActivity"
+            android:label="Movie Detail">
+        </activity>
+
+
+
     </application>
 
 </manifest>
