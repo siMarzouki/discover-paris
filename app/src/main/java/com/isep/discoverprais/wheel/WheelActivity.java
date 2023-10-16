@@ -60,7 +60,6 @@ public class WheelActivity extends AppCompatActivity implements SpinningWheelVie
         CustomDialogFragment dialogFragment = new CustomDialogFragment(item);
         dialogFragment.show(getSupportFragmentManager(), "CustomDialogFragment");
 
-        Toast.makeText(this, item, Toast.LENGTH_LONG).show();
     }
 
     @Override
