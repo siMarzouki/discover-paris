@@ -2,6 +2,7 @@ package com.isep.discoverprais.wheel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.Button;
 import android.widget.Toast;
 import com.isep.discoverprais.R;
 import com.isep.discoverprais.services.DataManager;
+import com.isep.discoverprais.ui.places.ChosenPlaceActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +50,13 @@ public class WheelActivity extends AppCompatActivity implements SpinningWheelVie
                 wheelView.rotate(50, 3000, 50);
             }
         });
+
+
+
+
     }
+
+
 
     @Override
     public void onRotation() {

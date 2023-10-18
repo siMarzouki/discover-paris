@@ -25,7 +25,7 @@
             android:id="@+id/dialog_button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="480px"
+            android:layout_marginRight="80px"
             android:backgroundTint="#808080"
 
             android:text="Dismiss" />

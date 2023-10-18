@@ -25,6 +25,7 @@ public class MovieDetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_detail);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Get the unique movie identifier from the intent (e.g., movie_id)
         movieId = getIntent().getIntExtra("movie_id", 0);
@@ -57,14 +58,7 @@ public class MovieDetailActivity extends AppCompatActivity {
         videoView.setVideoPath(videoPath);
         videoView.start();
 
-        ImageView backButton = findViewById(R.id.backButton);
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // Handle the back button click (e.g., finish the activity to go back)
-                finish();
-            }
-        });
+
 
         // Set a click listener for the replay button
         replayButton.setOnClickListener(new View.OnClickListener() {
@@ -116,5 +110,12 @@ public class MovieDetailActivity extends AppCompatActivity {
     private int getResourceIdForVideo(String videoName) {
         // Get the resource ID for the video based on the name provided in JSON
         return getResources().getIdentifier(videoName, "raw", getPackageName());
+    }
+
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

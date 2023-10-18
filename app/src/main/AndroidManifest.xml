@@ -6,26 +6,25 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/Theme.DiscoverPrais"
         tools:targetApi="31">
+
         <activity
             android:name=".wheel.WheelActivity"
             android:exported="false" />
         <activity
             android:name=".ui.places.ChosenPlaceActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PlaceActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/app_name" />
         <activity
             android:name=".Loading"
             android:exported="true">
@@ -41,12 +40,9 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name="com.isep.discoverprais.ui.movies.MovieDetailActivity"
-            android:label="Movie Detail">
-        </activity>
-
-
-
+            android:name=".ui.movies.MovieDetailActivity"
+            android:exported="false"
+            android:label="Movie Detail"></activity>
     </application>
 
 </manifest>
