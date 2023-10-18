@@ -17,8 +17,6 @@ public class PlacesViewModel extends ViewModel {
         mText = new MutableLiveData<>();
         List<Place> data = DataManager.getInstance().getPlacesList();
         mText.setValue("Places : "+data.size());
-
-
     }
 
     public LiveData<String> getText() {

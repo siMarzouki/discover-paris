@@ -17,9 +17,15 @@
             android:name=".wheel.WheelActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.places.ChosenPlaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaceActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="false"
-            android:label="@string/app_name" />
+            android:label="@string/app_name"
+            android:exported="false" />
         <activity
             android:name=".Loading"
             android:exported="true">
